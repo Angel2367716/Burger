@@ -8,6 +8,10 @@ const burger = {
     },
     update: function(id, cb) {
         orm.update ('burger', id, cb);
+    },
+
+    create: function(name, cd){
+        orm.create ('burger', name, cb);
     }
 }
 
