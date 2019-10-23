@@ -1,18 +1,44 @@
-const orm = require ("../config/orm.js");
+// const orm = require ("../config/orm.js");
+
+// const burger = {
+//     all: function (cb){
+//         orm.all('burgers', function(res){
+//             cb(res);
+//         })
+//     },
+//     update: function(id, cb) {
+//         orm.update ('burgers', id, cb);
+//     },
+
+//     create: function(name, cb){
+//         orm.create ('burgers', name, cb);
+//     }
+// }
+
+// module.exports = burger;
+
+
+const orm = require("../config/orm.js");
 
 const burger = {
-    all: function (cb){
-        orm.all('burger', function(res){
-            cb(res);
-        })
-    },
-    update: function(id, cb) {
-        orm.update ('burger', id, cb);
-    },
-
-    create: function(name, cd){
-        orm.create ('burger', name, cb);
-    }
-}
+  all: function(cb) {
+    orm.all("burgers", function(res) {
+      cb(res);
+    });
+  },
+  create: function(name, cb) {
+    orm.create("burgers", [
+      "burger_name", "devoured"
+    ], [
+      name, false
+    ], cb);
+  },
+  update: function(id, cb) {
+    let condition = "id=" + id;
+    orm.update("burgers", {
+      devoured: true
+    }, condition, cb);
+  }
+};
 
 module.exports = burger;
