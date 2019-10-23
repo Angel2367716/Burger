@@ -11,3 +11,20 @@ CREATE TABLE burger (
     devoured BOOL DEFAULT false,
     PRIMARY KEY (id)
 );
+
+INSERT INTO burger (burger_name, devoured) VALUES ('Cheese Burger', FALSE);
+INSERT INTO burger (burger_name, devoured) VALUES ('Hamburger', FALSE);
+INSERT INTO burger (burger_name, devoured) VALUES ('Pizza Burger', FALSE);
+INSERT INTO burger (burger_name, devoured) VALUES ('Bacon Cheese Burger', FALSE);
+
+ select * from burger;
+
+
+
+
+
+
+
+
+
+
