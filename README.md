@@ -6,6 +6,8 @@
 * [Express](https://npmjs.com/package/express)
 * [Handlebars](https://www.npmjs.com/package/handlebars)
 * [Express](https://npmjs.com/package/express)
+* [Body-Parser](https://www.npmjs.com/package/body-parser)
+* [Method-Override]https://www.npmjs.com/package/method-override)
 
 ## How to use the Burger restaurant app<h3>
  1. Fusce semper interdum sagittis. Pellentesque sit amet lacinia erat. Curabitur ornare feugiat neque, sed aliquam quam mollis eget. Nam vitae justo semper, mattis arcu at, fermentum nibh. Vestibulum ut lorem dui. Quisque a libero diam. Proin commodo dictum arcu in semper.
