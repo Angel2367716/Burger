@@ -17,5 +17,5 @@
  3. Once the devour button is clicked the eaten burger will be displayed on the right side of the page. 
   ![img3](./public/assets/images/img3.PNG)
 
-## Link to demo:
-* For a demo of the application please refer to the following [Burger](#) link.
+## Link to demo video:
+* For a demo video of the application please refer to the following [Burger](https://drive.google.com/file/d/1OEUU6tpdpk8aRf14AR_5E2TxkM8zQhMK/view) link.
