@@ -1,55 +1,3 @@
-{{!-- <div class="container">
-    <div class="row">
-        <div class="col-xs-12 text-center" id="top-bar">
-        <h1>Eat that Burger!!</h1>
-        </div>
-    </div>
-    <div>
-        <div class="row">
-            <div class="col-xs-6 text-center" class="task">
-                <div class="row">
-                    {{#each burger_data}}
-                        {{#unless this.devoured}}
-                        <div class="col-xs-9 text-center">
-					<pre>{{this.id}}. {{this.burger_name}}</pre>
-                        </div>
-               <div class="col-xs-3 text-center">
-					<form method="POST" action="/burger/update?_method=PUT"
-                    class="button-size">
-						<input input type="hidden" name="burger_id" type="text" 
-                        value={{this.id}}>
-                        <br>
-						<button type="submit" class="btn btn-default">
-                            Devour it!
-                        </button>
-					</form>
-				</div>
-				{{/unless}}
-			  {{/each}}
-			</div>
-		</div>
-		<div class="col-xd-6 text-center" class="task">
-            {{#each burger_data}}
-                {{#if this.devoured}}
-                <input class="form-control" type="text" placeholder="{{this.id}}.{{this.burger_name}}" readonly>
-                {{/if}}
-            {{/each}}
-        </div>
-	</div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12 text-center enter_section">
-            <form action="/burger/create" method="POST">
-            <input type="text" name="burger_name" class="form-control"
-            value="" id="enter_text">
-            <button type="submit" class="btn btn-primary" id="text-enter-button">SUBMIT</button> 
-            </form>
-            <p>Enter in a burger you would like to eat</p>
-        </div>
-    </div>
-</div> --}}
 <div class="main-container">
 	<header class="toolbar">
 		<nav class="navigation">
@@ -57,7 +5,7 @@
 				<li><a href="https://angel2367716.github.io/Portfolio/">Home</a></li>
 				<li class="nav-spacer"></li>
 				<li><a href="https://www.linkedin.com/in/marco-angel-37347b184/">LinkedIn</a></li>
-				<li><a href="https://github.com/Angel2367716">Repo</a></li>
+				<li><a href="https://github.com/Angel2367716/Burger">Repo</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -67,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center" id="top-bar">
-					{{!-- <img src="/assets/images/burger.png" alt="burger" /> --}}
+					<img src="/assets/images/burger.png" alt="burger" />
 					<h1> Welcome, Eat a burger, It's on us! </h1>
 					<br>
 				</div>
