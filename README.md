@@ -8,7 +8,7 @@
 * [Handlebars](https://www.npmjs.com/package/handlebars)
 * [Express](https://npmjs.com/package/express)
 
-## How to use the Burger restaurant app<h3>
+## How to use the Burger restaurant app
  1. Start by typing the name of a burger on the form. Then submit the request.
   ![img1](./public/assets/images/img1.PNG)
   
