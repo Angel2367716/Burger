@@ -1,17 +1,18 @@
 # Burger
-  This is a restaurnat application that allows the user to input the name of a burger they would like to eat and the app will display the burger on the left side of the page,where it will wait to be devoured by the user
+  This is a restaurnat application that allows the user to input the name of a burger they would like to eat and eat it by using the submit button. After submiting the form, the sql database will stored the information inputted by the user, then it will show the result on the left side of the page. After clicking on the devour button, the database will be updated and the name of the eaten burger will be sidplayed on the left side of the application. 
 ## Technologies Used:
 * [MySQL](https://www.npmjs.com/package/mysql)
 * [Node](https://www.npmjs.com/package/node-spotify-api)
 * [Express](https://npmjs.com/package/express)
 * [Handlebars](https://www.npmjs.com/package/handlebars)
 * [Express](https://npmjs.com/package/express)
-* [Body-Parser](https://www.npmjs.com/package/body-parser)
-* [Method-Override]https://www.npmjs.com/package/method-override)
 
 ## How to use the Burger restaurant app<h3>
- 1. Fusce semper interdum sagittis. Pellentesque sit amet lacinia erat. Curabitur ornare feugiat neque, sed aliquam quam mollis eget. Nam vitae justo semper, mattis arcu at, fermentum nibh. Vestibulum ut lorem dui. Quisque a libero diam. Proin commodo dictum arcu in semper.
-  ![](#)
+ 1. Start by typing the name of a burger on the form. Then submit the request.
+  ![img1](#)
   
- 2. Fusce eu magna sit amet massa tristique tincidunt nec non velit. Sed ac mi fermentum, fringilla velit eget, convallis enim. Phasellus sed congue augue. Nulla facilisi. Phasellus ullamcorper convallis velit, lobortis varius odio pharetra et. Etiam blandit pretium libero in sodales. Sed tincidunt ante a mauris fringilla laoreet. Integer accumsan rutrum purus, sit amet blandit nisl fringilla in. Fusce bibendum augue id placerat cursus. Morbi id lorem ex.
-  ![](#)
+ 2. After submitting your request, the burger to be eaten will show up on the left side of the page. In order to eat it, click on the devour button.
+  ![img2](#)
+  
+ 3. Once the devour button is clicked the eaten burger will be displayed on the right side of the page. 
+  ![img3](#)
