@@ -9,13 +9,13 @@
 
 ## How to use the Burger restaurant app<h3>
  1. Start by typing the name of a burger on the form. Then submit the request.
-  ![img1](public/assets/images/img1)
+  ![img1](public/assets/images/img1.png)
   
  2. After submitting your request, the burger to be eaten will show up on the left side of the page. In order to eat it, click on the devour button.
-  ![img2](public/assets/images/img2)
+  ![img2](public/assets/images/img2.png)
   
  3. Once the devour button is clicked the eaten burger will be displayed on the right side of the page. 
-  ![img3](public/assets/images/img3)
+  ![img3](public/assets/images/img3.png)
 
-## Link to Heroku demo:
-* For a demo of the application please refer to the following [Burger](#) link. Once the app is up and running, all you have to do is answer a few questions and a match will populate for you. 
+## Link to demo:
+* For a demo of the application please refer to the following [Burger](#) link.
