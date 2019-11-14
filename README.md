@@ -1,5 +1,5 @@
 # Burger
-  This is a restaurant application that allows the user to input the name of a burger they would like to eat and eat it by using the submit button. After submiting the form, the sql database will stored the information inputted by the user, then it will show the result on the left side of the page. After clicking on the devour button, the database will be updated and the name of the eaten burger will be sidplayed on the left side of the application. (Full app view) 
+  This is a restaurant application that allows the user to input the name of a burger they would like to eat and eat it by using the submit button. After submitting the form, the sql database will stored the information inputted by the user, then it will show the result on the left side of the page. After clicking on the devour button, the database will be updated and the name of the eaten burger will be sidplayed on the left side of the application. (Full app view) 
  ![img1](./public/assets/images/home.PNG)
 ## Technologies Used:
 * [MySQL](https://www.npmjs.com/package/mysql)
