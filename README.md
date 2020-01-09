@@ -6,7 +6,6 @@
 * [Node](https://www.npmjs.com/package/node-spotify-api)
 * [Express](https://npmjs.com/package/express)
 * [Handlebars](https://www.npmjs.com/package/handlebars)
-* [Express](https://npmjs.com/package/express)
 
 ## How to use the Burger restaurant app
  1. Start by typing the name of a burger on the form. Then submit the request.
